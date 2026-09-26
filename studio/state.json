@@ -1,11 +1,12 @@
 {
-  "focusGame": "arena",
-  "shiftCount": 0,
-  "milestone": "M0",
+  "focusGame": "boop-arena",
+  "shiftCount": 19,
+  "milestone": "M1-playtest",
   "games": {
-    "arena": {"version": "0.0.1", "status": "active"},
-    "steal-a-critter": {"version": "0.1.10", "status": "maintenance"},
-    "sprout-market": {"version": "0.0.0", "status": "design"},
-    "speed-escape": {"version": "0.0.0", "status": "design"}
-  }
+    "boop-arena": {"version": "0.1.2", "status": "active", "nextCard": "ar-03"},
+    "steal-a-critter": {"version": "0.1.10", "status": "maintenance", "nextCard": null},
+    "sprout-market": {"version": "design", "status": "design"},
+    "speed-escape": {"version": "design", "status": "design"}
+  },
+  "retired": ["forest-rescue"]
 }

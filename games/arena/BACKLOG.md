@@ -1,27 +1,16 @@
-# Arena Backlog
+# Boop Arena Backlog
 
-## M1 — First playable
-- [ ] Define exact win condition
-- [ ] Build lobby/spawn flow
-- [ ] Build first arena
-- [ ] Implement round state machine
-- [ ] Implement basic combat
-- [ ] Implement death/respawn rules
-- [ ] Implement reward result
-- [ ] Add minimal HUD
-- [ ] Add first analytics events
-- [ ] Write playtest checklist
+## Human gate
+- [ ] ar-02 — Studio playtest of builds/arena.rbxlx
 
-## M2 — Retention
-- [ ] Tutorial/onboarding
-- [ ] Progression
-- [ ] Upgrade system
-- [ ] Daily/session goals
-- [ ] More arenas
-- [ ] Matchmaking tuning
+## Next automatic card
+- [ ] ar-03 — Add 3 arena shapes and choose one randomly each round
 
-## M3 — Monetization
-- [ ] Economy model
-- [ ] Roblox-native products/passes where appropriate
-- [ ] Shop UX
-- [ ] Purchase funnel analytics
+## Product / data
+- [ ] ar-05 — Analytics events and funnel/economy instrumentation
+- [ ] ar-08 — Kid-safe power-up tiles
+
+## Monetization / progression
+- [ ] ar-06 — Double Coins pass and Shop (pass ID remains 0 until owner creates it)
+- [ ] ar-04 — Coin cosmetics
+- [ ] ar-07 — Daily reward and win streak
