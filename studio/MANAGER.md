@@ -1,42 +1,48 @@
-# Manager Notes — 2026-09-26
+# Manager Notes — Boop Arena Only
 
-## Current priority
-Validate and improve **Boop Arena v0.1.2** before expanding portfolio implementation.
+## Objective
+Get **Boop Arena v0.1.2** from playable prototype to validated Roblox product.
 
-## Immediate gates
-1. Human Studio playtest of `builds/arena.rbxlx`.
-2. Two-player Studio playtest of `builds/steal-a-critter.rbxlx`.
-3. Owner creates pass IDs only after deciding initial prices.
-4. ar-03 should add truly different arena decision patterns, not three cosmetic shapes.
-5. ar-05 should implement Roblox-native funnel/economy/custom analytics with server-side success logging.
+All other game work is frozen.
 
-## Recommended next sequence
-- ar-02 playtest
-- fix critical playtest findings
-- ar-03 arena variety
-- ar-05 analytics
-- publish controlled test
-- inspect first-session/retention data
-- ar-08 power-ups only if core loop is already understandable
-- cosmetics before heavier monetization
-- Double Coins shop after product value is clear
+## Immediate sequence
+1. **ar-02 — Human Studio playtest**
+   - open the current Arena build
+   - test keyboard, gamepad and touch
+   - test first-time comprehension
+   - test ring timing
+   - test falling/KO credit
+   - test save/rejoin behavior
+2. Fix critical playtest findings.
+3. **ar-03 — Arena variety**
+   - three layouts must create different movement decisions
+   - maintain fair spawns and readable collapse
+4. **ar-05 — Analytics**
+   - first-session funnel
+   - Boop success
+   - round completion
+   - second-round/requeue conversion
+   - economy events
+5. Publish a controlled test.
+6. Inspect first-play bounce, D1, session time and round-to-round replay.
+7. Only then expand power-ups, cosmetics and paid systems.
 
-## Strategic corrections from current Roblox guidance
-- Optimize D1 + session time before scaling acquisition.
-- Reduce first-play bounce before buying meaningful traffic.
-- Prepare 2–5 truthful 16:9 Home thumbnails and test them.
-- Treat intentional co-play as a growth opportunity.
-- Use events/updates later for real content drops.
-- Keep all critical client actions server-validated.
-- Keep mobile performance/readability as a release gate.
+## Current product risks
+- 12-second lobby wait may be dead time for a new player.
+- facing/range of Boop may be unclear.
+- low-player rounds may pace badly.
+- eliminated players may have too much downtime.
+- one arena shape becomes repetitive.
+- current economy has rewards but few compelling sinks.
+- Double Coins alone is not a strong long-term business.
 
-## Main unknowns
-- actual first-play bounce
-- D1/D7 retention
-- round-to-round replay rate
-- mobile Boop usability
-- low-player-count pacing
-- pass willingness / pricing
-- Steal-a-Critter frustration vs fun balance
+## Creative priority
+Higgsfield work is limited to:
+- Boop Arena logo/icon
+- truthful Home thumbnails
+- arena/environment exploration for ar-03 and later maps
+- trailer/key-art previsualization
+- visual language for Boop shockwaves, danger tiles and final-3x3 tension
 
-Do not pretend these are known until tested.
+## Frozen
+Do not schedule work for any other game until the owner explicitly changes focus.

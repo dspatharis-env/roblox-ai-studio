@@ -1,7 +1,14 @@
 {
   "busy": false,
   "card": null,
-  "stage": "foundation",
+  "stage": "boop-arena-validation",
   "qaFails": 0,
-  "handoff": null
+  "handoff": null,
+  "allowedGame": "boop-arena",
+  "blockedScopes": [
+    "steal-a-critter",
+    "sprout-market",
+    "speed-escape",
+    "new-game-concepts"
+  ]
 }

@@ -1,44 +1,67 @@
-# Game Brand + Higgsfield Briefs
+# Boop Arena Brand Brief
 
-These prompts are prepared for Higgsfield generation. Outputs are concepts; final Roblox assets must truthfully reflect implemented gameplay.
+This file intentionally covers only Boop Arena.
 
-## Boop Arena
-**Visual identity:** bubblegum pink impact rings, sky blue, grass green, red danger tiles, clean chunky geometry.
-**Logo:** BOOP ARENA in rounded chunky letters; the two O's can read like a playful impact/bounce motif.
-**Icon prompt:** kid-safe floating tile arena in the sky, cheerful blocky players, one visible pink push shockwave, red outer tiles starting to fall, centre readable at tiny size, bold BOOP ARENA title, no weapons, no damage imagery.
-**Thumbnail A — action:** mid-boop with one avatar sliding toward the edge; collapsing red ring visible.
-**Thumbnail B — survival:** tiny final 3x3 platform with 3 players and dramatic sky.
-**Thumbnail C — variety:** three different arena silhouettes floating behind the main character once ar-03 ships.
+## Brand promise
+**Friendly chaos on a shrinking sky arena.**
 
-## Steal a Critter
-**Visual identity:** conveyor yellow, tropical cyan/green, rarity glows, mischievous chase energy.
-**Logo:** STEAL A CRITTER with a cute critter peeking through or hanging from a letter.
-**Icon prompt:** rare glowing critter being carried toward a colorful base while another player chases; conveyor and rarity glow in background; funny, energetic, kid-safe.
-**Thumbnail A — conveyor:** line of Common→Legendary critters with odds-board feeling.
-**Thumbnail B — steal:** tense but funny carry-back chase between two bases.
-**Thumbnail C — collection:** packed base with visually distinct rarity tiers.
+The visual identity should communicate:
+- playful push combat
+- social competition
+- shrinking space
+- bright kid-safe energy
+- instant readability
 
-## Sprout Market
-**Visual identity:** warm market town, leaf green, sunflower gold, mutation neon accents.
-**Logo:** SPROUT MARKET with a sprout growing from the wordmark.
-**Icon prompt:** oversized magical mutated crop, two friends trading at a cozy seed market, vibrant collectible garden.
-**Thumbnail A — mutation reveal:** weather flash turns a normal crop into a rare mutation.
-**Thumbnail B — market:** social trading/selling scene.
-**Thumbnail C — growth:** before/after garden progression.
+## Logo direction
+**BOOP ARENA**
+- rounded, chunky, compact wordmark
+- emphasize "BOOP" more than "ARENA"
+- explore an impact ring / bounce motif in the O letters
+- avoid copying Roblox or competitor logos
+- must survive at small scale
 
-## Speed Escape
-**Visual identity:** electric blue wave, sunset orange, speed white, checkpoint neon.
-**Logo:** SPEED ESCAPE italic/forward-leaning letters with wave/speed trail.
-**Icon prompt:** runner accelerating uphill while a giant stylized wave rises behind, visible checkpoint ahead, strong diagonal motion.
-**Thumbnail A — close chase:** wave nearly reaches runner.
-**Thumbnail B — speed power:** obvious speed escalation and motion trails.
-**Thumbnail C — rebirth/progression:** new route or advanced zone visible beyond checkpoint.
+### Higgsfield/Recraft logo prompt
+"BOOP ARENA wordmark for a kid-safe sky party game, bold rounded chunky lettering, playful bounce/impact-ring motif inside the O letters, bubblegum pink and sky-blue palette with clean white separation, simple vector logo, high readability at mobile icon size, original brand, no Roblox corporate logo, no weapons."
 
-## Cross-game quality bar
-- One instantly readable action.
-- 1–3 focal subjects, not a crowded collage.
-- Large silhouettes that survive small mobile display.
-- Strong foreground/background separation.
-- No Roblox corporate logo.
-- No copied competitor characters, logos or exact layouts.
-- AI concept art must be recreated or adapted to match the actual in-game experience before publishing.
+## Square icon
+### Composition
+- 1 large foreground player delivering a Boop
+- visible pink circular shockwave
+- 1 opponent sliding backward near the edge
+- 2–5 tiles visibly entering danger state
+- sky background, minimal clutter
+- title optional; icon must work even without readable text
+
+### Prompt
+"Square game icon for BOOP ARENA, kid-safe blocky party characters on a floating tile arena in the sky, one player unleashes a friendly bright pink push shockwave, another slides toward the edge, outer tiles glow red and begin to drop, joyful high-energy expression, chunky clean geometry, high contrast, simple mobile-readable composition, no weapons, no injury, no copied characters, original game identity."
+
+## Home thumbnail A — Boop moment
+Show the verb immediately: impact, slide, edge.
+
+## Home thumbnail B — Collapse pressure
+Show multiple players forced inward by a clearly collapsing outer ring.
+
+## Home thumbnail C — Final 3x3
+Tiny surviving platform, three players, huge sky, obvious last-standing tension.
+
+## Home thumbnail D — Arena variety
+Do not use until ar-03 is real. Then show three actual shipped silhouettes.
+
+## Environment concept families
+Use Higgsfield Soul Location for mood/layout references:
+- toy-cloud colosseum
+- candy-sky platform
+- neon rooftop party arena
+- floating garden pavilion
+- toy castle courtyard in the clouds
+
+Every concept must preserve tile readability and player silhouettes.
+
+## Reject
+- realistic violence
+- slapping/weapon imagery
+- dark horror tone
+- giant unreadable text
+- ten-character collages
+- fake explosions that imply damage
+- visuals showing mechanics not in the build

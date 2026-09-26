@@ -1,55 +1,59 @@
-# Roadmap
+# Boop Arena Roadmap
 
-## Objective
-Build original Roblox games with strong first-session quality, replay, social value, technical integrity and sustainable Roblox-native revenue.
+This roadmap intentionally excludes all other games while single-game focus is active.
 
-## M1 — Boop Arena validation (NOW)
+## M1 — Validate v0.1.2
 - [ ] ar-02 Studio playtest
-- [ ] critical playtest fixes
-- [ ] ar-03 three strategically distinct arena shapes
-- [ ] ar-05 native analytics instrumentation
+- [ ] fix critical playtest findings
 - [ ] mobile/gamepad QA
-- [ ] first real packaging set: icon + 3 thumbnails
+- [ ] test save/rejoin/server-hop behavior
+- [ ] verify first-time Boop comprehension
+
+**Exit:** a new player can join, understand the verb, finish a round and requeue without developer explanation or critical bugs.
+
+## M2 — Add replay variety + measurement
+- [ ] ar-03 three strategically distinct arena layouts
+- [ ] validate spawn fairness and collapse logic per layout
+- [ ] ar-05 Roblox-native analytics
+- [ ] instrument first-session funnel
+- [ ] instrument second-round/requeue conversion
 - [ ] controlled published traffic test
 
-**Exit criteria:** no critical save/security/mobile issues; analytics verified; players can understand Boop and complete/requeue rounds without developer explanation.
+**Exit:** we have trustworthy data on first-play bounce, session time, D1 and replay behavior.
 
-## M2 — Boop Arena retention
-- [ ] improve first-session guidance based on funnel
-- [ ] ar-08 kid-safe power-up tiles if core loop data is healthy
+## M3 — Retention
+- [ ] reduce unnecessary lobby/dead time
+- [ ] improve Boop teaching/feedback
+- [ ] ar-08 kid-safe power-up tiles only if core loop is already clear
 - [ ] ar-04 coin cosmetics
 - [ ] ar-07 daily reward / win streak
-- [ ] social invite/co-play opportunity
-- [ ] additional arenas/themes
-- [ ] localization-ready UI
+- [ ] spectate/requeue polish
+- [ ] friend invite/co-play flow
+- [ ] more arena themes
 
-**Exit criteria:** D1 and session metrics are stable enough to justify monetization/acquisition experiments relative to similar-experience benchmarks when available.
+## M4 — Packaging + identity
+- [ ] distinctive Boop Arena logo
+- [ ] square icon optimized for phone-size readability
+- [ ] 3–5 truthful 16:9 Home thumbnails
+- [ ] test thumbnail variants
+- [ ] gameplay-based trailer once the real build visually supports it
+- [ ] localization-ready metadata
 
-## M3 — Monetization + acquisition
-- [ ] ar-06 Double Coins pass + Shop
-- [ ] deterministic cosmetic value
+## M5 — Monetization
+- [ ] ar-06 Double Coins pass + explicit Shop
+- [ ] cosmetic coin sinks
 - [ ] purchase funnel analytics
-- [ ] 2–5 Home thumbnail personalization variants
-- [ ] only then test small paid acquisition
-- [ ] use Creator Rewards/share-link opportunities without artificial engagement tactics
+- [ ] owner supplies pass ID and price
+- [ ] no power sale that changes Boop strength/range/cooldown
+- [ ] no aggressive spawn/death purchase prompts
 
-## M4 — Steal a Critter maintenance
-- [ ] two-player playtest
-- [ ] pass IDs and exact benefits
-- [ ] monitor stealing/reclaim frustration
-- [ ] economy/rebirth health review
-- [ ] packaging refresh when release-ready
+## M6 — Scale
+Only after retention/engagement is healthy:
+- [ ] small paid acquisition test
+- [ ] meaningful LiveOps update cadence
+- [ ] event/update surfaces
+- [ ] Creator Rewards/share-link opportunities
+- [ ] iterate from cohort data
 
-## M5 — Next prototype choice
-Do not build Sprout Market and Speed Escape simultaneously.
-Choose one based on:
-- prototype cost
-- differentiation
-- current market saturation
-- mobile feasibility
-- portfolio fit
-- owner preference
-
-## Permanent
-- Forest Rescue remains retired.
-- New projects need an explicit owner decision.
+## Frozen portfolio
+Steal a Critter, Sprout Market and Speed Escape are not roadmap items in this phase.

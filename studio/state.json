@@ -1,12 +1,19 @@
 {
+  "focusMode": "single-game",
   "focusGame": "boop-arena",
   "shiftCount": 19,
   "milestone": "M1-playtest",
   "games": {
-    "boop-arena": {"version": "0.1.2", "status": "active", "nextCard": "ar-03"},
-    "steal-a-critter": {"version": "0.1.10", "status": "maintenance", "nextCard": null},
-    "sprout-market": {"version": "design", "status": "design"},
-    "speed-escape": {"version": "design", "status": "design"}
+    "boop-arena": {
+      "version": "0.1.2",
+      "status": "active",
+      "priority": 1,
+      "nextCard": "ar-02-human-playtest"
+    },
+    "steal-a-critter": {"version": "0.1.10", "status": "frozen-reference"},
+    "sprout-market": {"version": "design", "status": "frozen-reference"},
+    "speed-escape": {"version": "design", "status": "frozen-reference"}
   },
-  "retired": ["forest-rescue"]
+  "retired": ["forest-rescue"],
+  "ownerOverrideRequiredToReactivateOtherGames": true
 }

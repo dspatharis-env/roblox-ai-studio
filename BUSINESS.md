@@ -1,50 +1,46 @@
-# Roblox Business Plan
+# Boop Arena Business Plan
 
-## Objective
-Build sustainable Roblox-native revenue by improving player value, not by maximizing purchase pressure.
+## Only active business
+Boop Arena is the only game currently receiving product, growth or monetization effort.
 
-## Current revenue paths
-Use Roblox-supported systems where appropriate:
-- passes for permanent one-time benefits
-- developer products for repeatable purchases
-- Roblox Shop surfaces where eligible
-- private servers when social use justifies them
-- subscriptions only after recurring value exists
-- Creator Rewards as an additional engagement/audience-expansion revenue stream
-- paid acquisition only after product metrics justify scaling
+## Business thesis
+A fair, replayable, social knockout party game can monetize best when players first enjoy the core Boop loop, want to replay, and care about identity/progression.
 
-## Business sequence
-1. Ship a stable, understandable game.
-2. Improve D1 retention and average session time.
-3. Improve D7/D30 retention and repeat play.
-4. Add/measure monetization.
-5. Improve packaging and acquisition.
-6. Scale only after cohorts hold up.
+## Sequence
+1. Validate first-session fun.
+2. Improve D1 and average session time.
+3. Improve replay/return behavior.
+4. Give Coins meaningful cosmetic uses.
+5. Add a simple fair pass.
+6. Test packaging.
+7. Scale traffic only after metrics justify it.
 
-## Current monetization map
-### Boop Arena
-- Double Coins pass only after playtest + analytics.
-- Cosmetics should become the preferred long-term sink/value system.
-- Avoid power sales that make the boop competition feel unfair.
+## Monetization
+### Double Coins pass
+Allowed because it changes earning speed rather than Boop combat power.
+Rules:
+- explicit shop entry
+- no spawn prompt
+- no death-frustration prompt
+- ID 0 means hard disabled
+- price chosen by human owner
+- analytics from shop view → prompt → completed purchase
 
-### Steal a Critter
-- Longer Lock and Extra Slots are acceptable as clear permanent benefits.
-- Keep stealing/reclaiming fun for non-payers.
-- Any future random paid reward must follow Roblox paid-random-item restrictions and odds disclosures.
+### Cosmetics
+Preferred long-term sink:
+- Boop shockwave skins
+- trails
+- victory poses
+- emotes
+- nameplate/lobby flair
 
-### Sprout Market
-- Faster Growth and Extra Plot can work as convenience/permanent-value passes.
-- Seed Restock can be a repeatable product, but avoid designs that pressure minors or create fake urgency.
+Cosmetics should not obscure combat readability or danger telegraphs.
 
-### Speed Escape
-- 2x Speed risks making non-paying progression feel obsolete; test carefully.
-- Auto-Run is convenience-oriented and safer.
-- Rebirth Skip should not destroy the prestige/progression loop.
+## Never sell
+- stronger Boop force
+- longer Boop range
+- shorter combat cooldown
+- hidden competitive advantages
 
-## Paid acquisition gate
-Do not spend meaningfully on ads until:
-- onboarding has been playtested,
-- analytics events are verified in a published build,
-- first-play bounce and retention are known,
-- store/economy integrity is proven,
-- packaging has at least 2–5 truthful thumbnail variants ready for testing.
+## Acquisition gate
+Do not spend meaningful Robux on acquisition until first-play bounce, D1, average session time and second-round conversion are known from a published instrumented build.

@@ -1,34 +1,42 @@
 # Orchestrator / Agent Operating Instructions
 
-## Mission
-Operate a Roblox-only game studio focused on original games, player value, technical quality and sustainable Roblox-native revenue.
+## Hard scope
+This repository is in **Boop Arena only** mode.
 
-## Active focus
-**Boop Arena v0.1.2** is the primary game. Next automatic implementation card is ar-03 only after the human playtest gate is acknowledged or the owner explicitly overrides it.
+**Boop Arena v0.1.2 is the only active product.**
+
+Do not use autonomous shifts on Steal a Critter, Sprout Market, Speed Escape or new games. Do not research, code, package, monetize or generate Higgsfield concepts for those projects unless the owner explicitly reactivates them.
 
 ## Before every shift
-1. Read `studio/state.json`.
-2. Read `studio/pipeline.json`.
-3. Read `studio/MANAGER.md`.
-4. Read the active game's GAME/BACKLOG/CHANGELOG/PLAYTEST files.
-5. If the task depends on current Roblox behavior, research current official Roblox documentation first.
-6. Never assume another AI saw a chat. Durable facts go in GitHub.
+1. Read `studio/FOCUS.md`.
+2. Read `studio/state.json`.
+3. Read `studio/pipeline.json`.
+4. Read `studio/MANAGER.md`.
+5. Read `games/arena/GAME.md`, `PRODUCT.md`, `BACKLOG.md`, `ANALYTICS.md`, `PLAYTEST.md`, `CHANGELOG.md`.
+6. Ask whether the work materially improves Boop Arena.
+7. If current Roblox behavior matters, verify it against current official Roblox documentation.
+
+## Current gates
+The next owner-dependent gate is **ar-02: Studio playtest**.
+After critical fixes, preferred sequence:
+ar-03 arena variety → ar-05 analytics → controlled published test → retention review → power-ups/cosmetics → monetization.
 
 ## Departments
+Every department serves Boop Arena:
 - Research
-- Product / game design
+- Product/game design
 - Engineering
-- Security / data integrity
+- Security/data integrity
 - Analytics
-- QA / playtest
-- Creative / Higgsfield
-- Packaging / acquisition
+- QA/playtest
+- Creative/Higgsfield
+- Packaging/acquisition
 - Monetization
 - LiveOps
 - Manager
 
 ## Evidence rule
-Every new feature proposal must state:
+Every feature proposal must state:
 - player problem/opportunity
 - hypothesis
 - expected metric
@@ -37,27 +45,18 @@ Every new feature proposal must state:
 - acceptance test
 - rollback/feature flag where practical
 
-## Release gate
-A release is blocked by:
+## Release blockers
 - unvalidated player-affecting remotes
 - save corruption risk
-- missing purchase receipt handling
-- broken mobile controls
-- failed playtest criticals
-- missing changelog/version update
-- analytics logging before success instead of after success
-- deceptive thumbnail/store copy
+- broken mobile/gamepad controls
+- failed critical playtest checks
+- analytics logged before successful state change
+- deceptive packaging
 - placeholder paid IDs accidentally enabled
+- performance regression severe enough to hurt low-end mobile
 
-## Creative rule
-Higgsfield can widen the creative search space. It cannot define gameplay feasibility. Convert selected concepts into Roblox implementation briefs with geometry, landmarks, materials, VFX, UI/readability, camera, performance and asset scope.
+## Higgsfield rule
+Higgsfield is used **only for Boop Arena** during this focus phase. Concepts must map to shipped or clearly scheduled mechanics and must be translated into Roblox-feasible implementation briefs.
 
-## Monetization rule
-No artificial scarcity, fake countdowns, aggressive pressure language, or paid-random systems without policy review. Human owner approves price and product IDs.
-
-## Handoff format
-At the end of meaningful work update:
-- state/pipeline if changed
-- game backlog/changelog if changed
-- LOG.md
-- MANAGER.md when priorities/blockers changed
+## Handoff
+Update durable state in GitHub. Never assume another AI has seen the same chat.

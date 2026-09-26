@@ -1,27 +1,30 @@
-# Roblox AI Studio
+# Boop Arena — Roblox AI Studio
 
-A shared, evidence-driven operating system for building, maintaining, packaging, measuring and monetizing Roblox experiences.
+This repository is now in **single-game focus mode**.
 
-## Mission
-Create original Roblox games that are fun first, technically solid, easy to understand on mobile, safe for broad audiences, and capable of earning sustainable Roblox-native revenue.
+## Only active product
+**Boop Arena v0.1.2**
 
-## Portfolio
-1. **Boop Arena v0.1.2** — active development
-2. **Steal a Critter v0.1.10** — maintenance / validation
-3. **Sprout Market** — design
-4. **Speed Escape** — design
+The purpose of the repo is to help ChatGPT, Claude, Higgsfield and the human owner build, validate, package, publish, measure and improve Boop Arena on Roblox.
 
-Forest Rescue is retired.
+## Frozen reference projects
+The folders for Steal a Critter, Sprout Market and Speed Escape remain in the repository only as archived/reference work. **Agents must not spend shifts, research, creative generation, coding time, monetization work or packaging work on them unless the owner explicitly reactivates one.**
+
+Forest Rescue remains retired.
 
 ## Shared-agent model
-- **Human owner:** final authority for publishing, spending, prices, game-pass creation, policy-sensitive decisions and product direction.
-- **ChatGPT:** current-platform research, product strategy, analytics design, QA, architecture, documentation, code/repo changes.
-- **Claude:** implementation/review, Roblox Studio-oriented development, code migration and handoffs.
-- **Higgsfield:** visual exploration, environment concepts, key art, thumbnail ideation, trailer previsualization.
-- **GitHub:** durable source of truth between agents. Important decisions must be written here, not left only in chat.
+- **Human owner:** final authority for publishing, spending, prices, pass creation and product direction.
+- **ChatGPT:** Roblox research, product strategy, analytics, QA, repo/code changes and manager coordination.
+- **Claude:** implementation/review and Roblox Studio development handoffs.
+- **Higgsfield:** Boop Arena visual exploration only — arena environments, icon/logo concepts, thumbnails, key art and trailer previsualization.
+- **GitHub:** durable source of truth between agents.
 - **Roblox Studio / Creator Hub:** final build, playtest, publishing, analytics and monetization environment.
 
 ## Operating loop
-Research → hypothesis → backlog card → implementation → automated gate → Studio playtest → release → analytics → decision.
+Research → Boop Arena hypothesis → backlog card → implementation → automated gate → Studio playtest → release → analytics → decision.
 
-Start with `studio/AGENT.md`, `studio/state.json`, `studio/MANAGER.md` and the active game's folder.
+Start with:
+1. `studio/FOCUS.md`
+2. `studio/state.json`
+3. `studio/MANAGER.md`
+4. `games/arena/`
