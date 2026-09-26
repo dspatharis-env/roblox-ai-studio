@@ -1,22 +1,42 @@
-# Manager Notes
+# Manager Notes — 2026-09-26
 
-## Current objective
-Validate Boop Arena v0.1.2 in Roblox Studio, then take ar-03 unless the owner redirects priority.
+## Current priority
+Validate and improve **Boop Arena v0.1.2** before expanding portfolio implementation.
 
-## Current state
-- Boop Arena v0.1.2: playable, save-safe, needs Studio playtest.
-- Steal a Critter v0.1.10: feature-complete for current scope, maintenance mode, needs two-player Studio playtest.
-- Sprout Market: design only.
-- Speed Escape: design only.
-- Forest Rescue: retired and removed.
+## Immediate gates
+1. Human Studio playtest of `builds/arena.rbxlx`.
+2. Two-player Studio playtest of `builds/steal-a-critter.rbxlx`.
+3. Owner creates pass IDs only after deciding initial prices.
+4. ar-03 should add truly different arena decision patterns, not three cosmetic shapes.
+5. ar-05 should implement Roblox-native funnel/economy/custom analytics with server-side success logging.
 
-## Owner actions needed
-1. Playtest builds/arena.rbxlx using games/arena/PLAYTEST.md.
-2. Playtest builds/steal-a-critter.rbxlx with 2 players.
-3. Create Roblox game passes and provide IDs:
-   - Boop Arena: Double Coins
-   - Steal a Critter: Longer Lock
-   - Steal a Critter: Extra Slots
+## Recommended next sequence
+- ar-02 playtest
+- fix critical playtest findings
+- ar-03 arena variety
+- ar-05 analytics
+- publish controlled test
+- inspect first-session/retention data
+- ar-08 power-ups only if core loop is already understandable
+- cosmetics before heavier monetization
+- Double Coins shop after product value is clear
 
-## Packaging priority
-Create distinct, truthful icons/thumbnails. Roblox discovery guidance emphasizes unique metadata and strong packaging, while thumbnails should accurately show expected gameplay.
+## Strategic corrections from current Roblox guidance
+- Optimize D1 + session time before scaling acquisition.
+- Reduce first-play bounce before buying meaningful traffic.
+- Prepare 2–5 truthful 16:9 Home thumbnails and test them.
+- Treat intentional co-play as a growth opportunity.
+- Use events/updates later for real content drops.
+- Keep all critical client actions server-validated.
+- Keep mobile performance/readability as a release gate.
+
+## Main unknowns
+- actual first-play bounce
+- D1/D7 retention
+- round-to-round replay rate
+- mobile Boop usability
+- low-player-count pacing
+- pass willingness / pricing
+- Steal-a-Critter frustration vs fun balance
+
+Do not pretend these are known until tested.

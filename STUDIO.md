@@ -1,18 +1,26 @@
 # Studio Handbook
 
-## Core rule
-Roblox is the product and distribution platform. This project has no Whop dependency.
+## North star
+Build Roblox experiences players voluntarily return to. Revenue follows retention, engagement, trust and good product execution.
 
-## Operating loop
-Research -> Manager decision -> Backlog -> Build -> Automated gate -> Playtest -> Release -> Analytics -> Research.
+## Non-negotiables
+- Roblox is the product/distribution platform. No Whop dependency.
+- Do not clone another experience's branding, map, characters, exact UI, progression or metadata.
+- Trend research is inspiration, not permission to copy.
+- Every client request that affects state, rewards, purchases or other players is server-validated.
+- Every release has a rollback path and a Studio playtest.
+- Packaging must truthfully represent what a player will actually experience.
+- AI-generated concept art is reference material until converted into Roblox-feasible assets and gameplay.
+- Human approval is required for prices, paid ads, publishing, pass/product creation and irreversible external actions.
 
-## Source of truth
-This repository is the durable coordination layer for humans, ChatGPT, Claude, Higgsfield-assisted creative work, and Roblox Studio.
+## Decision hierarchy
+1. Player safety / policy
+2. Data integrity / anti-exploit
+3. Core-loop clarity and retention
+4. Performance and mobile usability
+5. Social/replay value
+6. Monetization
+7. Content volume / polish
 
-## House rules
-- Never overwrite working code without understanding it.
-- Prefer small, testable changes.
-- Every meaningful change updates the relevant backlog/changelog/log.
-- Visual concepts must be translated into feasible Roblox assets, geometry, effects, UI, and performance budgets.
-- Monetization must stay compatible with Roblox policies and player trust.
-- External AI tools may propose assets/ideas; final game logic and publishing remain under human control.
+## Growth loop
+Packaging improves play-through → onboarding reduces first-play bounce → core loop improves session time → progression/social systems improve return days → fair monetization improves spend days → updates/events reactivate users → analytics decides what to build next.

@@ -1,13 +1,33 @@
-# Market Research
+# Market Research Operating File
 
-Store dated Roblox market observations here.
+## Research rule
+Prefer current primary sources and live evidence:
+1. Roblox Creator Hub / Creator Dashboard
+2. Roblox charts / experience pages
+3. Roblox corporate/investor materials when relevant
+4. reputable press for ecosystem context
+5. community/video/social discussion for qualitative player sentiment, clearly labeled as anecdotal
 
-Each entry should include:
+## Daily/weekly capture
+For each observation:
 - date
-- source
-- observed pattern
-- why it may matter
+- source link
+- observed behavior/trend
+- likely player need
+- how saturated it appears
+- what is transferable
+- what would be copying and is therefore rejected
+- experiment idea
 - confidence
-- proposed experiment
 
-Do not convert trends directly into features without a product hypothesis.
+## Current strategic theme
+The studio should not chase "genre of the week" blindly. Build fast prototypes around durable desires:
+- competition
+- collection
+- progression
+- social stealing/trading
+- mastery
+- surprise
+- self-expression
+
+The portfolio already covers four distinct combinations of these.

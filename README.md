@@ -1,21 +1,27 @@
 # Roblox AI Studio
 
-Shared source of truth for a Roblox-only game studio operated with human oversight and AI assistance.
+A shared, evidence-driven operating system for building, maintaining, packaging, measuring and monetizing Roblox experiences.
 
 ## Mission
-Discover promising Roblox game opportunities, design memorable worlds, build and maintain playable experiences, publish on Roblox, measure player behavior, improve retention/engagement/monetization, and repeat.
+Create original Roblox games that are fun first, technically solid, easy to understand on mobile, safe for broad audiences, and capable of earning sustainable Roblox-native revenue.
 
-## Current priority
-1. Arena — active primary project
-2. Steal a Critter
-3. Sprout Market
-4. Speed Escape
+## Portfolio
+1. **Boop Arena v0.1.2** — active development
+2. **Steal a Critter v0.1.10** — maintenance / validation
+3. **Sprout Market** — design
+4. **Speed Escape** — design
 
-## Roles
-- **Human owner**: final product, publishing, spending, policy, and business decisions.
-- **ChatGPT**: research, architecture, QA, documentation, analytics interpretation, backlog and code changes.
-- **Claude**: code implementation/review and Roblox Studio-oriented development workflows.
-- **Higgsfield**: concept art, environments, visual exploration, thumbnails, trailers, and creative references.
-- **Roblox Studio**: final game-authoring and testing environment.
+Forest Rescue is retired.
 
-AI systems coordinate through this repository. They do not assume another agent saw a chat; durable decisions belong in files here.
+## Shared-agent model
+- **Human owner:** final authority for publishing, spending, prices, game-pass creation, policy-sensitive decisions and product direction.
+- **ChatGPT:** current-platform research, product strategy, analytics design, QA, architecture, documentation, code/repo changes.
+- **Claude:** implementation/review, Roblox Studio-oriented development, code migration and handoffs.
+- **Higgsfield:** visual exploration, environment concepts, key art, thumbnail ideation, trailer previsualization.
+- **GitHub:** durable source of truth between agents. Important decisions must be written here, not left only in chat.
+- **Roblox Studio / Creator Hub:** final build, playtest, publishing, analytics and monetization environment.
+
+## Operating loop
+Research → hypothesis → backlog card → implementation → automated gate → Studio playtest → release → analytics → decision.
+
+Start with `studio/AGENT.md`, `studio/state.json`, `studio/MANAGER.md` and the active game's folder.

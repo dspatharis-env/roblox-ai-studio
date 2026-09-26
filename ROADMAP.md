@@ -1,40 +1,55 @@
 # Roadmap
 
-## Studio objective
-Build, maintain and grow Roblox experiences that can earn sustainable Roblox-native revenue.
+## Objective
+Build original Roblox games with strong first-session quality, replay, social value, technical integrity and sustainable Roblox-native revenue.
 
-## Current portfolio
-1. **Boop Arena v0.1.2** — active priority
-2. **Steal a Critter v0.1.10** — maintenance
-3. **Sprout Market** — design
-4. **Speed Escape** — design
+## M1 — Boop Arena validation (NOW)
+- [ ] ar-02 Studio playtest
+- [ ] critical playtest fixes
+- [ ] ar-03 three strategically distinct arena shapes
+- [ ] ar-05 native analytics instrumentation
+- [ ] mobile/gamepad QA
+- [ ] first real packaging set: icon + 3 thumbnails
+- [ ] controlled published traffic test
 
-Forest Rescue is retired and removed.
-
-## M1 — Boop Arena validation
-- Human Studio playtest on builds/arena.rbxlx
-- ar-03: three arena shapes, randomized each round
-- ar-05: analytics events
-- ar-08: kid-safe power-up tiles
-- ar-06: Double Coins pass + shop
-- ar-04: coin cosmetics
-- ar-07: daily reward + win streak
-- Improve icon + thumbnail packaging and test multiple variants
+**Exit criteria:** no critical save/security/mobile issues; analytics verified; players can understand Boop and complete/requeue rounds without developer explanation.
 
 ## M2 — Boop Arena retention
-- Faster first-round onboarding
-- More arena variety and readable hazards
-- Progression/cosmetics
-- Daily/session goals
-- Analytics-driven tuning
+- [ ] improve first-session guidance based on funnel
+- [ ] ar-08 kid-safe power-up tiles if core loop data is healthy
+- [ ] ar-04 coin cosmetics
+- [ ] ar-07 daily reward / win streak
+- [ ] social invite/co-play opportunity
+- [ ] additional arenas/themes
+- [ ] localization-ready UI
 
-## M3 — Roblox-native monetization
-- Boop Arena: Double Coins pass
-- Steal a Critter: Longer Lock + Extra Slots
-- Human owner creates/approves game pass IDs and prices
-- No external storefront dependency
+**Exit criteria:** D1 and session metrics are stable enough to justify monetization/acquisition experiments relative to similar-experience benchmarks when available.
 
-## M4 — Portfolio expansion
-- Sprout Market prototype
-- Speed Escape prototype
-- Promote only after core loops test well
+## M3 — Monetization + acquisition
+- [ ] ar-06 Double Coins pass + Shop
+- [ ] deterministic cosmetic value
+- [ ] purchase funnel analytics
+- [ ] 2–5 Home thumbnail personalization variants
+- [ ] only then test small paid acquisition
+- [ ] use Creator Rewards/share-link opportunities without artificial engagement tactics
+
+## M4 — Steal a Critter maintenance
+- [ ] two-player playtest
+- [ ] pass IDs and exact benefits
+- [ ] monitor stealing/reclaim frustration
+- [ ] economy/rebirth health review
+- [ ] packaging refresh when release-ready
+
+## M5 — Next prototype choice
+Do not build Sprout Market and Speed Escape simultaneously.
+Choose one based on:
+- prototype cost
+- differentiation
+- current market saturation
+- mobile feasibility
+- portfolio fit
+- owner preference
+
+## Permanent
+- Forest Rescue remains retired.
+- New projects need an explicit owner decision.

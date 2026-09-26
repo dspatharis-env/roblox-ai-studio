@@ -1,26 +1,47 @@
 # Higgsfield Creative Department
 
-## Purpose
-Use Higgsfield to expand imagination and create strong visual references for Roblox development.
+## Role
+Higgsfield is a concept/visualization partner for:
+- environment exploration
+- arena/map silhouettes
+- key art
+- thumbnails/icons
+- trailers/storyboards
+- event visual directions
+- lighting/color studies
 
-## Best uses
-- arena/world concepts
-- environment mood and lighting
-- landmarks and silhouettes
-- character/outfit concepts
-- thumbnail compositions
-- trailer/storyboard concepts
-- event themes
-- visual variants for testing
+It is not the repository of gameplay truth and does not replace Roblox Studio.
 
-## Hard rule
-Higgsfield does not define implementation feasibility. Every output must be translated into a Roblox production brief covering geometry, materials, VFX, lighting, UI, performance, and asset scope.
+## Workflow
+1. Product owner/agent writes a visual brief from real shipped/planned mechanics.
+2. Generate 3–8 materially different concepts, not tiny variations.
+3. Select by readability + originality + Roblox feasibility.
+4. Convert selection into implementation spec:
+   - gameplay landmarks
+   - geometry/modules
+   - materials
+   - lighting
+   - VFX
+   - UI implications
+   - performance risk
+5. Build simplified version in Roblox.
+6. Capture real gameplay.
+7. Final public packaging should remain faithful to the real build.
 
-## Standard request format
-1. Goal
-2. Player emotion
-3. Environment theme
-4. Required gameplay landmarks
-5. Camera/composition
-6. Roblox implementation constraints
-7. Variants requested
+## Thumbnail workflow
+For an active game generate concepts around:
+- core action
+- near-loss tension
+- reward/progression
+- social interaction
+- update/event
+
+Never use a concept that advertises an unshipped mechanic.
+
+## Boop Arena environment prompts
+Prompt family A: floating toy-sky arenas with huge readable edges and collapse rings.
+Prompt family B: themed modular arenas (candy cloud, toy castle, neon rooftop) while preserving clear tile danger.
+Prompt family C: dramatic final 3x3 moment with spectators/lobby visible far below.
+
+## Account note
+If normal Higgsfield image generation is unavailable on the connected plan, store briefs here and generate later rather than weakening the briefs.
