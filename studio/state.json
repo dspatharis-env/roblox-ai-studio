@@ -1,0 +1,11 @@
+{
+  "focusGame": "arena",
+  "shiftCount": 0,
+  "milestone": "M0",
+  "games": {
+    "arena": {"version": "0.0.1", "status": "active"},
+    "steal-a-critter": {"version": "0.1.10", "status": "maintenance"},
+    "sprout-market": {"version": "0.0.0", "status": "design"},
+    "speed-escape": {"version": "0.0.0", "status": "design"}
+  }
+}
